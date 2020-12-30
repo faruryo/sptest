@@ -1,0 +1,34 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - v*
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+
+      - name: hadolint
+        uses: burdzwastaken/hadolint-action@master
+
+      - name: Build the Docker image
+        run: docker build . --file Dockerfile --target tester --tag faruryo/sptest-tester
+
+      - name: pytest and cov-report
+        run: docker run -v /tmp:/tmp faruryo/sptest-tester pytest -s --cov=sptest --cov-report=xml:/tmp/coverage.xml
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          file: /tmp/coverage.xml
+          fail_ci_if_error: true

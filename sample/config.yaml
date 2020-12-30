@@ -1,0 +1,22 @@
+speedtest:
+  servers:
+    - 34122 # b-speed01.jptransit.net
+    - 14623 # speed.coe.ad.jp
+  threads: 1
+
+ambient:
+  dataLink:
+    34122: # b-speed01.jptransit.net
+      download:
+        channelId: <channelId>
+        writeKey: <writeKey>
+      upload:
+        channelId: <channelId>
+        writeKey: <writeKey>
+    14623: # speed.coe.ad.jp
+      download:
+        channelId: <channelId>
+        writeKey: <writeKey>
+      upload:
+        channelId: <channelId>
+        writeKey: <writeKey>
