@@ -3,6 +3,8 @@
 ![Test](https://github.com/faruryo/sptest/workflows/Test/badge.svg)
 ![Docker](https://github.com/faruryo/sptest/workflows/Docker/badge.svg)
 
+Tool to run speedtest and data upload
+
 ## Development
 
 ### Remote - Containers
