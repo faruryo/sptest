@@ -16,7 +16,7 @@
     ],
     "restructuredtext.confPath": "",
     "python.pythonPath": "/workspaces/sptest/.venv/bin/python3.7",
-    "python.testing.pytestEnabled": true,
+    "python.testing.pytestEnabled": false,
     "autoDocstring.docstringFormat": "google",
     "cSpell.words": [
         "httplib",
@@ -30,5 +30,6 @@
         "sptest"
     ],
     "python.testing.unittestEnabled": false,
-    "python.testing.nosetestsEnabled": false
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.promptToConfigure": false
 }
