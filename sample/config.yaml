@@ -1,12 +1,12 @@
 speedtest:
   servers:
-    - 34122 # b-speed01.jptransit.net
+    - 32907 # speedtest.unko.co.jp
     - 14623 # speed.coe.ad.jp
   threads: 1
 
 ambient:
   dataLink:
-    34122: # b-speed01.jptransit.net
+    32907: # speedtest.unko.co.jp
       download:
         channelId: <channelId>
         writeKey: <writeKey>
