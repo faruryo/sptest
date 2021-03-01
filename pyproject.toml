@@ -11,7 +11,7 @@ typer = "^0.3.2"
 speedtest-cli = "^2.1.2"
 ambient = {git = "https://github.com/AmbientDataInc/ambient-python-lib.git"}
 pandas = "1.1.5"
-numpy = "1.18.5"
+numpy = "1.20.1"
 PyYAML = "^5.3.1"
 
 [tool.poetry.dev-dependencies]
