@@ -15,7 +15,7 @@
         ".venv",
     ],
     "restructuredtext.confPath": "",
-    "python.pythonPath": "/workspaces/sptest/.venv/bin/python3.7",
+    "python.pythonPath": "/workspaces/sptest/.venv/bin/python3.9",
     "python.testing.pytestEnabled": false,
     "autoDocstring.docstringFormat": "google",
     "cSpell.words": [
