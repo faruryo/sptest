@@ -1,6 +1,6 @@
 speedtest:
   servers:
-    - 32907 # speedtest.unko.co.jp
+    - 15047 # speed.open.ad.jp
     - 14623 # speed.coe.ad.jp
   threads: 1
 
