@@ -29,6 +29,12 @@ Tool to run speedtest and data upload
 
 Run in vscode's integrated terminal
 
-```
+```sh
 poetry install
+```
+
+### Test run in Remote - Containers
+
+```
+(.venv) $ python -m sptest servers
 ```

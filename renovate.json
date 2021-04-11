@@ -1,13 +1,6 @@
+
 {
   "extends": [
-    "config:base"
-  ],
-  "packageRules": [
-    {
-      "updateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true
-    }
-  ],
-  "assignees": ["faruryo"],
-  "schedule": ["on the first day of the month"]
+      "github>faruryo/renovate-config"
+  ]
 }

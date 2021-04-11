@@ -1,7 +1,7 @@
 # Extract the pip module from poetry.toml
 FROM python:3.9.2 as builder
 
-RUN pip install poetry==1
+RUN pip install --no-cache-dir poetry==1
 
 WORKDIR /work
 
