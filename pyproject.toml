@@ -10,8 +10,8 @@ python = "^3.9.2"
 typer = "^0.3.2"
 speedtest-cli = "^2.1.3"
 ambient = {git = "https://github.com/AmbientDataInc/ambient-python-lib.git"}
-pandas = "1.2.2"
-numpy = "1.20.1"
+pandas = "1.2.4"
+numpy = "1.20.2"
 PyYAML = "^5.3.1"
 
 [tool.poetry.dev-dependencies]
@@ -20,7 +20,7 @@ flake8 = "^3.8.4"
 black = "^20.8b1"
 isort = "^5.6.4"
 mypy = "^0.790"
-rope = "^0.18.0"
+rope = "^0.19.0"
 pytest-mock = "^3.4.0"
 pytest-cov = "^2.10.1"
 
