@@ -12,7 +12,7 @@ speedtest-cli = "^2.1.3"
 ambient = {git = "https://github.com/AmbientDataInc/ambient-python-lib.git"}
 pandas = "1.3.4"
 numpy = "1.21.1"
-PyYAML = "^5.3.1"
+PyYAML = "^6.0.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.1"
